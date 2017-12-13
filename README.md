@@ -1,0 +1,2 @@
+# Annam-Farmar-App
+Annam Farmer App is a single roof platform for farmers (customers) to book the needed farm machineries with a single touch in their mobile phones. A farmer/ customer can book all kind of agricultural equipment/ machineries from a single app or by a single phone call to our call center. He/ she need not follow up so many brokers/ dealers to book for different kinds of machineries and can also get the needed machineries at right time.
