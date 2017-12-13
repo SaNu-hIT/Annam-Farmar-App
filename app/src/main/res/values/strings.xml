@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Annam Farmer App</string>
+    <string name="title_activity_maps">Annam Farmer App</string>
+
+    <string name="gms_api">AIzaSyB9XslaE_uYYGAYxMn5H1_5yk9tt61Ejxg</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="okay">OKAY</string>
+
+
+    <!--homepagestrings-->
+
+    <string name="book_now">Book Now</string>
+    <string name="book_later">Plan Now</string>
+    <string name="booking_status">Booking Status</string>
+    <string name="machineries">Machineries</string>
+    <string name="change_location">Change Location</string>
+
+    <!--forgotpagestrings-->
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_text">Please enter a valid email/phoneno</string>
+    <string name="email">Email</string>
+    <string name="ok">OK</string>
+
+    <!--loginand signup-->
+    <string name="Email_phone">Email/Phone Number</string>
+    <string name="Password">Password</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="signup_address">Address</string>
+    <string name="Panchayath">Panchayath/Location</string>
+    <string name="Signup_who_am_i">Who am I?</string>
+    <string name="signup_cofirmpassword">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_field_required">Field Required</string>
+    <string name="title_activity_login">Login</string>
+    <!--   navigationitems-->
+
+    <string name="home">Home</string>
+    <string name="changepasword">Change Password</string>
+    <string name="booknow">Book Now</string>
+    <string name="booklater">Book Later</string>
+    <string name="Machineries">Book Now</string>
+    <string name="History">History</string>
+    <string name="Logout">Logout</string>
+    <string name="Landarea">Land Area</string>
+
+    <string name="internet">Connection error</string>
+    <string name="banana">Banana</string>
+    <string name="cashew">Cashew</string>
+    <string name="coconut">Coconut</string>
+    <string name="rice">Rice</string>
+    <string name="nutmeg">Nutmeg</string>
+    <string name="coffee">Coffee</string>
+    <string name="tea">Tea</string>
+    <string name="spices">Spices</string>
+    <string name="rubber">Rubber</string>
+    <string name="others">Others</string>
+    <string name="vegetable">Vegetables</string>
+    <string name="wheat">Wheat</string>
+    <string name="profile">Profile</string>
+    <string name="for_all">Select</string>
+    <string name="title_activity_home_page__actvity">HomePage_Actvity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="accept">OK</string>
+    <string name="eula_string">COPYRIGHTS:
+
+\nCopyright 2016 AnnamAgroTech. All Rights Reserved.
+
+\n\nThis software may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any
+language, natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable
+format, or by any other form or means without prior consent, in writing, from AnnamAgroTech.
+
+\n\nYou are granted a limited license to use this software. The software may be used or copied only in accordance
+with the terms of that license, which is described in the following paragraphs.
+
+\n\n1. Farmers should register in Annam Agrotech Pvt. Ltd, either directly through Annam App or through call centre.
+\n\n2. Farmer should share his personal details while registering. (details like personal mobile number, email id, permanent address and about land of farming)
+\n\n3.	No fare will be collected by Annam Agrotech for using Annam App or call center services, till we pass information about the service fare.
+\n\n4.	Rental calculation will be done in advance and there may be change in the rent in accordance with duration and usage of machineries.
+\n\n5.	Farmer should pay the rent directly to the driver/ machine owner.
+\n\n6.	Annam Agrotech will not entertain any type of disputes in the terms rate, usage and timing.
+
+\n\nTRADEMARKS:
+\n\n[Software logos, icons, etc that are Trademarked]
+
+\n\nLICENSE:
+\n\n\"THE SOFTWARE\" shall be taken to mean the software contained in this app and any subsequent versions
+or upgrades received as a result of having purchased this app. \"BUYER\" shall be taken as the original
+purchaser of the software.
+
+\n\nBuyer has the non-exclusive right to the use of software only on a single device. Buyer may not electronically
+transfer the program from one device to another over any type of network. Buyer may not distribute copies
+of the software or the accompanying documentation to others either for a fee or without charge. Buyer may not modify
+or translate the program or documentation. User may not disassemble the program or allow it to be disassembled
+into its constituent source code. Buyer\'s use of the software indicates his/her acceptance of these terms
+and conditions. If buyer does not agree to these conditions, return the distribution media, documentation, and
+associated materials to the vendor from whom the software was purchased, and/or uninstall the software from the device,
+and erase the software from any and all storage devices upon which it may have been installed.
+
+\n\nThis license agreement shall be governed by the laws of India, Kerala and
+shall inure to the benefit of AnnamAgroTech or its assigns.
+
+\n\nDISCLAIMER / LIMITATION OF LIABILITY:
+\n\nBuyer acknowledges that the software may not be free from defects and may not satisfy all of buyer\'s
+needs. AnnamAgroTech warrants all media on which the software is distributed for 60 days to be free from defects
+in normal use. The software and any accompanying written materials are licensed \"AS IS\". Buyer\'s exclusive
+remedy during the warranty period (if any) shall consist of replacement of distribution media if determined to be
+faulty. In no event will AnnamAgroTech be liable for direct, indirect, incidental or consequential damage or
+damages resulting from loss of use, or loss of anticipated profits resulting from any defect in the software,
+even if it has been advised of the possibility of such damage. Some laws do not allow exclusion or limitation
+of implied warranties or liabilities for incidental or consequential damages, so the above limitations or
+exclusion may not apply.
+
+\n\nSPECIFIC RESTRICTIONS:
+\n\nIn accordance with the COMPUTER SOFTWARE RENTAL ACT OF 1990, this software may not be rented, lent or leased.
+\n\nThe software and accompanying documentation may not be provided by a \"Backup Service\" or any other vendor
+which does not provide an original package as composed of AnnamAgroTech, including but not limited to all original
+distribution media, documentation, registration cards, and insertions.</string>
+    <string name="title">Farmer App</string>
+    <string name="about_logo_content_description">Image of Annam logo</string>
+    <string name="copyright1">© 2016-2017 AnnamAgroTech.\nAll rights reserved.</string>
+    <string name="view_licenses">EULA</string>
+    <string name="About">About</string>
+    <string name="krishisena">Krishisena</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

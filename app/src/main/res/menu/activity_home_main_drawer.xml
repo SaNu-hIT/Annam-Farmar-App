@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_booknow"
+            android:icon="@drawable/booknow"
+            android:title="@string/book_now" />
+        <item
+            android:id="@+id/nav_booklater"
+            android:icon="@drawable/booklater"
+            android:title="@string/book_later" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_machineries"
+            android:icon="@drawable/machine"
+            android:title="@string/machineries" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/machine"
+            android:title="@string/changepasword" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/aboutlogo"
+            android:title="@string/About" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/Logout" />
+    </group>
+
+
+
+</menu>

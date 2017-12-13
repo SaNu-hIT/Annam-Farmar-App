@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <!--<item-->
+            <!--android:id="@+id/nav_krishisena"-->
+            <!--android:icon="@drawable/krishisena"-->
+            <!--android:title="@string/krishisena" />-->
+        <item
+            android:id="@+id/nav_machineries"
+            android:icon="@drawable/machine"
+
+            android:title="@string/machineries" />
+        <item
+            android:id="@+id/nav_bookingstatus"
+            android:icon="@drawable/bookingstatus"
+            android:title="@string/booking_status" />
+        <item
+            android:id="@+id/bill"
+            android:icon="@drawable/history"
+            android:title="Bill" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="@string/History" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/changepassword"
+            android:title="@string/changepasword" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/aboutlogo"
+            android:title="@string/About" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/Logout" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "418689987933",
+    "firebase_url": "https://annam-farmer-app-d564c.firebaseio.com",
+    "project_id": "annam-farmer-app-d564c",
+    "storage_bucket": "annam-farmer-app-d564c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418689987933:android:726ce9bfdf490b40",
+        "android_client_info": {
+          "package_name": "com.sft.annam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418689987933-6d4m503ti4q51n1qsrin88nbupldpt2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sft.annam",
+            "certificate_hash": "CEBC5BF9AF06859648ACFED1E90EBE244618D660"
+          }
+        },
+        {
+          "client_id": "418689987933-l96bfbiknn7s2tbkfhg5lgt301f5i6v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx9uNCUJv4WfEoQsgPcSMRK2eRHDVDpEo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418689987933-l96bfbiknn7s2tbkfhg5lgt301f5i6v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

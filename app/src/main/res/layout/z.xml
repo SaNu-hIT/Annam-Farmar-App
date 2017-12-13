@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+                <ImageView
+                    android:id="@+id/summary_image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tillerharvester" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+
+
+                android:layout_marginTop="8dp"
+               >
+
+                <com.sft.annam.TextView_Lato
+                    android:id="@+id/summary_machine_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+                    android:layout_margin="5dip"
+                    android:text="Machine name"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:weightSum="1">
+
+                        <com.sft.annam.TextView_Lato
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:text="Machine Type"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/summary_machine_type"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="dummy data"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:visibility="gone"
+                        android:weightSum="1">
+
+                        <com.sft.annam.TextView_Lato
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:text="Location"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/summary_location"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:ellipsize="none"
+                            android:gravity="left"
+                            android:text="dummy data"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+
+                        android:gravity="center_vertical"
+                        android:weightSum="1">
+
+                        <com.sft.annam.TextView_Lato
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:text="Booking Date"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/booking_date"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="dummy data"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/booiking_date"
+                        android:gravity="center_vertical"
+                        android:weightSum="1">
+
+                        <com.sft.annam.TextView_Lato
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:text="Job Date"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/summary_booking_date"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="dummy data"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/booiking_time"
+                        android:gravity="center_vertical"
+                        android:weightSum="1">
+
+                        <com.sft.annam.TextView_Lato
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:text="Arrival Time"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/arrival_time"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="dummy data"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone"
+                        android:id="@+id/summary_booking_period_layout"
+                        android:gravity="center_vertical"
+                        android:weightSum="1">
+
+                        <com.sft.annam.TextView_Lato
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:text="Booking Period"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/summary_booking_period"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="dummy data"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/qty_Layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/land_Layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+
+                           >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:id="@+id/land_area_layout"
+                                android:gravity="center_vertical"
+                                android:weightSum="1">
+
+                                <com.sft.annam.TextView_Lato
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:text="Land Area"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/summary_land_area"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:text="dummy data"
+                                    android:textSize="14sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:id="@+id/land_condition_linear"
+                                android:gravity="center_vertical"
+                                android:weightSum="1">
+
+                                <com.sft.annam.TextView_Lato
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:text="Land Condition"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/summary_land_condition"
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:singleLine="true"
+                                    android:text="dummy data"
+                                    android:textSize="14sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/tree_Layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                          >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="0dp"
+                                android:id="@+id/tree_climb_layout"
+                                android:gravity="center_vertical"
+                                android:weightSum="1">
+
+                                <com.sft.annam.TextView_Lato
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:text="No of trees to climb"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/summary_tree_climb"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:text="dummy data"
+                                    android:textSize="14sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:id="@+id/tree_clean_layout"
+                                android:gravity="center_vertical"
+                                android:weightSum="1">
+
+                                <com.sft.annam.TextView_Lato
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:text="No of trees to clean"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/summary_tree_clean"
+                                    android:layout_width="0dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="0.50"
+                                    android:gravity="left"
+                                    android:singleLine="true"
+                                    android:text="dummy data"
+                                    android:textSize="14sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/kg_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+
+                            android:gravity="center_vertical"
+
+                            android:weightSum="1">
+
+                            <com.sft.annam.TextView_Lato
+                                android:id="@+id/textView7"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.50"
+                                android:gravity="left"
+                                android:text="Quantity in kg"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/summary_kg"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.50"
+                                android:gravity="left"
+
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+android:id="@+id/summary_rate_day_new_layout"
+                        android:gravity="center_vertical"
+                        android:weightSum="1">
+
+                        <com.sft.annam.TextView_Lato
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="left"
+                            android:text="Est. Total Amount"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/summary_rate_day_new"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="start"
+                            android:singleLine="true"
+
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/pick_up_layout"
+
+    android:layout_height="wrap_content">
+
+                    <com.sft.annam.TextView_Lato
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="start"
+                        android:text="Fuel / Driver Details"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/fuel_status"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="center"
+                            android:text="Without Fuel"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/driver_status"
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="Without driver"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/pickup_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center"
+                        android:text="Pick up Required"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#ff6a6a"
+                android:gravity="center"
+                android:text="Price will vary on panchayath of machine owner."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="16dp"
+                android:layout_height="wrap_content">
+                <com.sft.annam.TextView_Lato
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Terms"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <com.sft.annam.TextView_Lato
+                        android:layout_width="match_parent"
+
+                        android:id="@+id/term1"
+                        android:layout_height="wrap_content"
+                        android:text="Terms"/>
+                    <com.sft.annam.TextView_Lato
+                        android:layout_width="match_parent"
+
+                        android:id="@+id/term2"
+                        android:layout_height="wrap_content"
+                        android:text="Terms"/>
+                    <com.sft.annam.TextView_Lato
+                        android:layout_width="match_parent"
+
+                        android:id="@+id/term3"
+                        android:layout_height="wrap_content"
+                        android:text="Terms"/>
+                    <com.sft.annam.TextView_Lato
+                        android:layout_width="match_parent"
+
+                        android:id="@+id/term4"
+                        android:layout_height="wrap_content"
+                        android:text="Terms"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+
+                android:gravity="center">
+<CheckBox
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:id="@+id/termsandconditions"
+    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tnc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="0dp"
+                    android:gravity="center"
+                    android:textColor="#194fd6"
+                    android:text=" Terms and Conditions "
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="0.10"
+                android:gravity="center"
+                android:id="@+id/linearLayout">
+
+                <Button
+                    android:id="@+id/summary_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="5dp"
+                    android:text="CONFIRM BOOKING"
+                    android:textColor="#FFBCF2BF"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

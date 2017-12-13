@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:elevation="8dp"
+        card_view:cardCornerRadius="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.sft.annam.customfonts.MyTextView
+                android:id="@+id/job"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Heading"
+android:textColor="#0a0909"
+                android:typeface="monospace"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:weightSum="3">
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:text="Location"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:id="@+id/location"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="2"
+                    android:padding="3dp"
+                    android:text="address"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="3">
+
+
+                <com.sft.annam.customfonts.MyTextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="Nature of job"
+                    android:textSize="14sp" />
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:id="@+id/work_nature"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:padding="3dp"
+                    android:text="short desc  about the job\n\n\n\n"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp"
+                android:weightSum="3">
+
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:textStyle="bold"
+                    android:text="No. of people : "
+                    android:textSize="14sp" />
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:id="@+id/tv_labours"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2"
+                    android:padding="3dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:id="@+id/visible_layout"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/book_a_service_bg"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:id="@+id/mlfb_BookingDateNTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:drawableRight="@drawable/ic_date_range_black_24dp"
+                        android:gravity="start"
+                        android:padding="5dp"
+                        android:text="Enter Date-Time"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/day_true_visibiliyu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:id="@+id/mlfb_RadioGroupDateNTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+
+                            <RadioButton
+                                android:id="@+id/mlfb_RadioDays"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Days" />
+
+
+                            <RadioButton
+                                android:id="@+id/mlfb_RadioTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:layout_weight="1"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Time" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/day_visibility"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:baselineAligned="false"
+
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="3dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="3dp"
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+
+                                >
+
+
+                                <EditText
+                                    android:id="@+id/mlfb_EditTextDays"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+
+                                    android:layout_weight="1"
+                                    android:background="@drawable/book_a_service_bg"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+                                    android:hint="Days"
+                                    android:inputType="number" />
+
+                                <LinearLayout
+                                    android:id="@+id/time_edittext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:weightSum="2">
+
+                                    <EditText
+                                        android:id="@+id/mlfb_EditTextHours"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/book_a_service_bg"
+                                        android:gravity="center"
+                                        android:hint="Hour"
+                                        android:inputType="number"
+                                        android:visibility="invisible" />
+
+                                    <EditText
+                                        android:id="@+id/mlfb_EditTextMinutes"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/book_a_service_bg"
+                                        android:gravity="center"
+                                        android:hint="Mint"
+                                        android:inputType="number"
+                                        android:visibility="invisible" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:padding="2dp">
+
+                <Button
+                    android:id="@+id/karshakasena_book_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:text="book" />
+   <Button
+                    android:id="@+id/openbooking"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+       android:background="@drawable/plus"
+
+             />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

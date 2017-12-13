@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/layoutbackground"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:id="@+id/scrollView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_ui"
+        android:layout_margin="4dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <com.sft.annam.TextView_Lato
+            android:id="@+id/myLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:layout_gravity="center"
+            android:background="@color/cardview_light_background"
+android:padding="7dp"
+         android:drawablePadding="5dp"
+
+            android:maxLines="3" android:drawableLeft="@drawable/ic_my_location_black_24dp"
+            android:typeface="normal"
+            android:text="Select Location" />
+    </LinearLayout>
+
+
+
+
+
+                    <!--<View-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1dp"-->
+                        <!--android:layout_marginBottom="16dp"-->
+                        <!--android:layout_marginTop="8dp"-->
+                        <!--android:background="#9e9e9e" />-->
+
+                    <include layout="@layout/machine_categories" />
+
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

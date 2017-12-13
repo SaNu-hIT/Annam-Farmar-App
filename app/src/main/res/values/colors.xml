@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <color name="button_color">#29d656</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorGray">#495C67</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorOrange">#F68159</color>-->
+    <!--<color name="colorLightGray">#a6abae</color>-->
+
+    <!--<color name="colorBackroundWhite">#f0f2ea</color>-->
+    <!---->
+
+    <color name="colorPrimary">#29d656</color>
+    <color name="colorPrimaryDark">#278431</color>
+    <color name="colorAccent">#76dcc7</color>
+
+    <!--<color name="colorPrimary">#0fab38</color>-->
+    <!--<color name="colorPrimaryDark">#114e17</color>-->
+    <!--<color name="colorAccent">#21967e</color>-->
+    <color name="colourlight">#ffffff</color>
+    <color name="colourlit">#bcf2bf</color>
+    <color name="white">#ffffffff</color>
+    <color name="viewBg">#ffffffff</color>
+    <color name="album_title">#FF4C4C4C</color>
+
+    <color name="cityname">#5A5A5A</color>
+    <color name="date">#5A5A5A</color>
+    <color name="categary">#5A5A5A</color>
+    <color name="state">#A0A0A0</color>
+    <color name="week">#A0A0A0</color>
+    <color name="view">#e3e3e3</color>
+
+
+
+    <color name="colortext">#100b20</color>
+    <color name="colorhint">#a9aaac</color>
+
+</resources>

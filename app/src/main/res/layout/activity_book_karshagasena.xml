@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sft.annam.Utilities.BookKarshagasena">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_back"/>
+
+        </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:id="@+id/layout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/book_a_service_bg"
+                android:gravity="center"
+android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/mlfb_BookingDateNTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:drawableRight="@drawable/ic_date_range_black_24dp"
+                    android:gravity="start"
+                    android:padding="5dp"
+                    android:text="Enter Date-Time"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/day_true_visibiliyu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+              >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/mlfb_RadioGroupDateNTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <RadioButton
+                            android:id="@+id/mlfb_RadioDays"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Days" />
+
+
+                        <RadioButton
+                            android:id="@+id/mlfb_RadioTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Time" />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/day_visibility"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:baselineAligned="false"
+
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="3dp"
+                            android:orientation="horizontal"
+                            android:weightSum="2"
+
+                            >
+
+
+                            <EditText
+                                android:id="@+id/mlfb_EditTextDays"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+
+
+                                android:layout_weight="1"
+                                android:background="@drawable/book_a_service_bg"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:hint="Days"
+                                android:inputType="number" />
+
+                            <LinearLayout
+                                android:id="@+id/time_edittext"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:weightSum="2">
+
+                                <EditText
+                                    android:id="@+id/mlfb_EditTextHours"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/book_a_service_bg"
+                                    android:gravity="center"
+                                    android:hint="Hour"
+                                    android:inputType="number"
+                                    android:visibility="invisible" />
+
+                                <EditText
+                                    android:id="@+id/mlfb_EditTextMinutes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/book_a_service_bg"
+                                    android:gravity="center"
+                                    android:hint="Mint"
+                                    android:inputType="number"
+                                    android:visibility="invisible" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/booknow_karshagasena"
+            android:layout_alignParentBottom="true"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_height="wrap_content"
+            android:text="BOOK"/>
+</RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/header_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="4dp"
+                        android:gravity="top">
+
+                        <ImageView
+                            android:id="@+id/mlfb_MachineImage"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/b01tractor" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginStart="25dp"
+                        android:orientation="vertical"
+                        android:padding="3dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:visibility="gone">
+
+                                <ImageView
+                                    android:id="@+id/mlfb_MachineIcon"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:padding="4dp"
+
+                                    android:src="@drawable/machine" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left">
+
+                                <TextView
+                                    android:id="@+id/mlfb_MachineTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="left"
+
+                                    android:text="Tractor Ridge Plaster"
+                                    android:textSize="16sp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            >
+
+
+                            <TextView
+                                android:id="@+id/mlfb_MachineDescription"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="end|fill_horizontal|center"
+                                android:text="Ridge plaster is a very common tool used for bringing new changes "
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                //end header
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start|center">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+
+                            <TextView
+                                android:id="@+id/mlfb_RatePerDay"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginEnd="5dp"
+
+                                android:layout_marginLeft="5dp"
+
+
+                                android:layout_marginRight="5dp"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/roundrectangleleft"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+
+                                android:minHeight="45dp"
+                                android:padding="5dp"
+                                android:text="Rate/Day"
+                                android:textColor="@color/white"
+
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/mlfb_TotalRate"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/roundedrectangleright"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+
+                                android:minHeight="45dp"
+                                android:padding="5dp"
+                                android:text="Rate/hour"
+                                android:textColor="@color/white"
+
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+
+                        android:id="@+id/mlfb_LayoutOfDownButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="end|bottom"
+                        android:paddingRight="0dp">
+
+                        <ImageButton
+
+                            android:id="@+id/mlfb_ButtonUp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+
+                            android:background="@color/white"
+                            android:fontFamily="sans-serif-condensed"
+                            android:src="@drawable/swipe_up"
+                            android:text="More"
+                            android:visibility="gone"
+
+                            />
+
+                        <ImageButton
+
+                            android:id="@+id/mlfb_ButtonDown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+
+                            android:background="@color/white"
+                            android:fontFamily="sans-serif-condensed"
+                            android:src="@drawable/plus"
+                            android:text="More"
+
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/child_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/date_and_time_layout_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/layout_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/book_a_service_bg"
+                        android:gravity="center"
+
+
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:id="@+id/mlfb_BookingDateNTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:drawableRight="@drawable/ic_date_range_black_24dp"
+                            android:gravity="start"
+                            android:padding="5dp"
+                            android:text="Enter Date-Time"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/day_true_visibiliyu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:id="@+id/mlfb_RadioGroupDateNTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+
+                            <RadioButton
+                                android:id="@+id/mlfb_RadioDays"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:checked="true"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Days" />
+
+
+                            <RadioButton
+                                android:id="@+id/mlfb_RadioTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+
+                                android:layout_weight="1"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text="Time" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/day_visibility"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:baselineAligned="false"
+
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="3dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="3dp"
+                                android:orientation="horizontal"
+                                android:weightSum="2"
+
+                                >
+
+
+                                <EditText
+                                    android:id="@+id/mlfb_EditTextDays"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+
+                                    android:layout_weight="1"
+                                    android:background="@drawable/book_a_service_bg"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+                                    android:hint="Days"
+                                    android:inputType="number" />
+
+                                <LinearLayout
+                                    android:id="@+id/time_edittext"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:weightSum="2">
+
+                                    <EditText
+                                        android:id="@+id/mlfb_EditTextHours"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/book_a_service_bg"
+                                        android:gravity="center"
+                                        android:hint="Hour"
+                                        android:inputType="number"
+                                        android:visibility="invisible" />
+
+                                    <EditText
+                                        android:id="@+id/mlfb_EditTextMinutes"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/book_a_service_bg"
+                                        android:gravity="center"
+                                        android:hint="Mint"
+                                        android:inputType="number"
+                                        android:visibility="invisible" />
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/mlfb_LayoutOfTrees_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_margin="25dp"
+
+                   >
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="left">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left"
+
+                                android:text=" NO of trees to climb "
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+
+                            <EditText
+                                android:id="@+id/mlfb_EditTextTreesToClimb"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/book_a_service_bg"
+                                android:digits="1234567890."
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:hint="trees "
+                                android:inputType="number"
+                                android:padding="2dp" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="left">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left"
+
+                                android:text=" NO of trees to clean "
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+
+                            <EditText
+                                android:id="@+id/mlfb_EditTextTreesToClean"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/book_a_service_bg"
+                                android:digits="1234567890."
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:hint="trees "
+                                android:inputType="number"
+                                android:padding="2dp" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/mlfb_LayoutOfCoprasss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+
+                    android:layout_marginTop="10dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+
+
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:text=" Copra in kg "
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+
+                        <EditText
+                            android:id="@+id/mlfb_EditTextCopra"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/book_a_service_bg"
+                            android:digits="1234567890."
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:hint=" kg "
+                            android:inputType="number" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/visible_land_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="0dp"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text=" Land Area  In Cents"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+
+                        <EditText
+                            android:id="@+id/mlfb_EditTextLandArea"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/book_a_service_bg"
+                            android:digits="1234567890."
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center"
+                            android:hint="Total Area"
+                            android:inputType="number" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/land_type_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:padding="4dp"
+                            android:text="Land Condition"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <CheckBox
+                                android:id="@+id/mlfb_CheckBoxDry"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Dry" />
+
+                            <CheckBox
+                                android:id="@+id/mlfb_CheckBoxWet"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Wet" />
+
+                            <CheckBox
+                                android:id="@+id/mlfb_CheckBoxLumpy"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Lumpy" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/vehicledetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:id="@+id/mlfb_LayoutOfWithFuel"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/book_a_service_bg"
+
+
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="With  Fuel"
+
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/mlfb_LayoutOfWithoutFuel"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/book_a_service_bg"
+
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="Without  Fuel"
+
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:id="@+id/mlfb_LayoutOfWithDriver"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/book_a_service_bg"
+
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="With  Driver"
+
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/mlfb_LayoutOfWithoutDriver"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/book_a_service_bg"
+                            android:gravity="center"
+                            android:padding="10dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:text="Without  Driver"
+
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/inof_imageviewss"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/inof_imageview"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+
+                            android:src="@drawable/info" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/mlfb_LayoutOfLicense"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="3dp"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone">
+
+                        <CheckBox
+                            android:id="@+id/mlfb_CheckBoxLicense"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Do you have the license or training for the above ?" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/mlfb_LayoutOfPickupRequired"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/pickup_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:text=" PICKUP REQUIRED "
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/mlfb_ButtonBookNow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/rect_oval_green"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="BOOK NOW"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <Button
+                            android:id="@+id/mlfb_ButtonPlanNow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/rect_oval_green"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="PLAN NOW"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/mlfb_LayoutOfUpButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center|center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingRight="10dp">
+
+                    <!--<ImageButton-->
+
+                    <!--android:id="@+id/mlfb_ButtonUp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:layout_height="wrap_content"-->
+
+                    <!--android:src="@drawable/ic_keyboard_arrow_up_black_24dp"-->
+                    <!--android:text="Less"-->
+
+                    <!--/>-->
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

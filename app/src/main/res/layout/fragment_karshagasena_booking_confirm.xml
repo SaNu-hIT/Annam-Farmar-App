@@ -1,0 +1,170 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+                   <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                       android:id="@+id/location"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"             android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nature of job"
+                android:layout_weight="1"/>
+
+
+                   <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                       android:id="@+id/natureofjob"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number of people"
+                android:layout_weight="1"/>
+
+
+                   <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                       android:id="@+id/numberofpeople"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout> <LinearLayout
+            android:layout_width="match_parent"            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_weight="1"/>
+
+
+                   <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                       android:id="@+id/date"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/day_layout" android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expected day"
+                android:layout_weight="1"/>
+
+
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/days"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+          <LinearLayout
+            android:layout_width="match_parent"
+             android:id="@+id/hourlaout" android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expected hour"
+                android:layout_weight="1"/>
+
+
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hour"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+             android:id="@+id/minute_layout" android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expected minute"
+                android:layout_weight="1"/>
+
+
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/minute"
+                android:text="Location"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:text="SUBMIT"
+    style="@style/Base.Widget.AppCompat.Button.Colored"
+    android:id="@+id/confirm_button"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_height="wrap_content" />
+
+    </LinearLayout>

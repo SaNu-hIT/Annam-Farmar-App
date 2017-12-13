@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageViewforbookmac"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/b01tractor" />
+
+
+            <TextView
+                android:id="@+id/machone_name"
+                android:background="#d3d3d3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                android:layout_toEndOf="@+id/imageViewforbookmac"
+                android:layout_toRightOf="@+id/imageViewforbookmac"
+                android:gravity="center"
+                android:padding="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Title"
+                android:textColor="#464646"
+                android:textSize="16dp" />
+
+            <TextView
+                android:background="#d3d3d3"
+                android:id="@+id/machine_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/machone_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imageViewforbookmac"
+                android:layout_toRightOf="@+id/imageViewforbookmac"
+
+                android:minHeight="75dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Description"
+                android:textColor="#706f6f"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageViewforbookmac"
+                android:minHeight="45dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/mac_rateperhour"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginStart="5dp"
+                            android:background="@drawable/roundrectangleleft"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="rate/day"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/mac_rateperday"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@drawable/roundedrectangleright"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="rate/hour"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_book_mac_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="45dp"
+                    android:background="#11a72f"
+                    android:text="BOOK" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
