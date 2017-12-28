@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
+
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -27,6 +27,8 @@ import com.sft.annam.MapsActivity;
 import com.sft.annam.Model.Booking_Status_Items_model;
 import com.sft.annam.R;
 import com.sft.annam.Utilities.Utilities;
+import com.sft.annam.customfonts.MyTextView;
+import com.sft.annam.customfonts.MyTextViewBold;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
@@ -42,9 +44,10 @@ import java.util.ArrayList;
 public class Booking_Status_Adapter extends BaseAdapter {
 
     FragmentActivity context;
-    TextView id,location,owner_name, owner_phone, machine_name, booking_status, booking_date, arrival_time;
+    MyTextView id,location,owner_name, owner_phone, booking_status, booking_date, arrival_time;
     ImageView machineImage;
     Button cancel_button;
+    MyTextViewBold  machine_name;
 
     private ProgressDialog loading;
 
@@ -76,7 +79,7 @@ public class Booking_Status_Adapter extends BaseAdapter {
         if (convertView == null) {
             LayoutInflater li = (LayoutInflater)context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = li.inflate(R.layout.test, parent, false);
+            convertView = li.inflate(R.layout.booking_status_design, parent, false);
         }
         initViews(convertView);
         initListeners(position);
@@ -118,16 +121,16 @@ public class Booking_Status_Adapter extends BaseAdapter {
     }
 
     private void initViews(View convertView) {
-        id=(TextView)convertView.findViewById(R.id.booking_status_id);
-        location=(TextView)convertView.findViewById(R.id.booking_staus_location);
-        owner_name=(TextView)convertView.findViewById(R.id.booking_staus_owner_name);
-        owner_phone=(TextView)convertView.findViewById(R.id.booking_staus_owner_phone);
-        machine_name=(TextView)convertView.findViewById(R.id.booking_staus_machine_name);
-        booking_status=(TextView)convertView.findViewById(R.id.booking_staus_booking_status);
+        id=(MyTextView)convertView.findViewById(R.id.booking_status_id);
+        location=(MyTextView)convertView.findViewById(R.id.booking_staus_location);
+        owner_name=(MyTextView)convertView.findViewById(R.id.booking_staus_owner_name);
+        owner_phone=(MyTextView)convertView.findViewById(R.id.booking_staus_owner_phone);
+        machine_name=(MyTextViewBold) convertView.findViewById(R.id.booking_staus_machine_name);
+        booking_status=(MyTextView)convertView.findViewById(R.id.booking_staus_booking_status);
         cancel_button=(Button)convertView.findViewById(R.id.status_cancel_button);
         machineImage=(ImageView)convertView.findViewById(R.id.booking_staus_machine_image);
-        booking_date=(TextView)convertView.findViewById(R.id.booking_staus_arrival_date);
-        arrival_time=(TextView)convertView.findViewById(R.id.booking_staus_arrival_time);
+        booking_date=(MyTextView)convertView.findViewById(R.id.booking_staus_arrival_date);
+        arrival_time=(MyTextView)convertView.findViewById(R.id.booking_staus_arrival_time);
 
     }
 

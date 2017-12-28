@@ -53,6 +53,7 @@ public class Booking_Status_Fragment extends Fragment {
         View statusView = inflater.inflate(R.layout.booking_status,container,false);
 
         listViewStatus = (ListView) statusView.findViewById(R.id.listViewStatus);
+        listViewStatus.setDivider(null);
         FetchId fetchId = Utilities.getInstance(getActivity()).fetchId();
         final String fechid = fetchId.getUser_id();
         Log.e( "onCreateView: ",""+fechid );

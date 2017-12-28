@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="2dp"
+        android:layout_height="wrap_content">
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/lnrh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/jkn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    >
+
+                    <com.sft.annam.customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ANNAM"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="vertical">
+
+
+                        <com.sft.annam.customfonts.MyTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:id="@+id/shopaddress"
+                            android:layout_gravity="right"
+                            android:gravity="right"
+                            android:padding="2dp"
+                            android:lines="3"
+
+                            android:text="@string/address"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:id="@+id/shopemail"
+                            android:padding="2dp"
+                            android:text="info@annamagrotech.com"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:padding="2dp"
+                            android:id="@+id/shopmobile"
+                            android:text="0484-3194010"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:padding="2dp"
+                            android:text="Invoice"
+                            android:textColor="#38a16f"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:padding="2dp"
+                                android:layout_gravity="center"
+                                android:gravity="start|center"
+                                android:text="Bill To: "
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/bill_ownername"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:text="Kate L"
+                                android:gravity="start|center"
+                                android:layout_gravity="center"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"
+                                android:textSize="14dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:padding="2dp"
+                                android:layout_gravity="center"
+                                android:gravity="start|center"
+                                android:text="Bill To: "
+                                android:visibility="invisible"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/bill_ownerphone"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+
+                                android:text="Kate L"
+                                android:padding="2dp"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:padding="2dp"
+                                android:layout_gravity="center"
+                                android:gravity="start|center"
+                                android:text="Bill To: "
+                                android:visibility="invisible"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/bill_location"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:text="Kate L"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="Invoice No :"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/bill_bookingid"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="Kate L"
+                                android:textColor="@color/black"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="Date :"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/bill_date"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="09/9/2019"
+                                android:textColor="@color/black"
+                                android:textSize="12dp" />
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/bill_day"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+
+
+                                android:visibility="gone"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="09/9/2019"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:visibility="invisible"   android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="Terms:"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/terms"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="NET 30"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:visibility="invisible"      android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="Due Date:"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/due_date"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="19/9/2019"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#78ca96"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+                        android:gravity="center"
+                        android:text="No"
+                        android:textColor="#333333"
+                        android:textSize="13dp"
+
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="M.Type"
+                        android:textColor="#333333"
+                        android:textSize="13dp"
+
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="M.Name"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Rate"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total Time"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="10dp"
+
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight=".3"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="#333333"
+                        android:textSize="13dp"
+
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="0dp"
+                        android:id="@+id/bill_machinetype"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Machine Type"
+                        android:textColor="#333333"
+                        android:textSize="13dp"
+
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:id="@+id/bill_machinename"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Machine Name"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:id="@+id/bill_rate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Rate"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:layout_width="0dp"    android:id="@+id/bill_exptime"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total Time"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+
+                    <me.grantland.widget.AutofitTextView
+                        android:textSize="13dp"
+                        android:id="@+id/bill_total_amount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Total"
+                        android:textColor="#333333"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:layout_marginBottom="10dp"
+android:layout_margin="5dp"
+                    android:background="#dcdcdc" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+                                android:textColor="@color/black"
+                                android:textSize="7dp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="Sub Total :"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                android:visibility="visible" />
+
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/subtotals"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="$120.00"
+                                android:textColor="@color/black"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:padding="2dp"
+
+                                android:textColor="@color/black"
+                                android:textSize="7dp"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:visibility="gone"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="Discount($):"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/discount"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="$0.00"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:visibility="gone"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+
+                                android:text="Sales Tax (7.5%):"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/SGST_Total"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="$9.00"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+
+                                android:text="Total"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/GST_Total"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="$129.00"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Powered by ANNAM AGROTECH, Visit http://www.annamagrotech.com"
+                            android:textColor="@color/black"
+                            android:textSize="7dp"
+                            android:visibility="visible" />
+
+
+                    </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+
+                                android:text="Paid:"
+                                android:textColor="@color/black"
+                                android:textSize="10dp"
+                                android:visibility="visible" />
+
+                            <TextView
+
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginRight="20dp"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:padding="2dp"
+                                android:text="$0.00"
+                                android:textColor="@color/black"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:visibility="gone"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"
+                                android:layout_marginRight="10dp"
+                                android:background="#3cb96c" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:padding="2dp"
+
+                                    android:text="Balance Due:"
+                                    android:textColor="#2d2c2c"
+                                    android:textSize="12dp"
+                                    android:visibility="visible" />
+
+                                <TextView
+                                    android:id="@+id/subtotal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_weight="1"
+                                    android:gravity="right"
+                                    android:padding="2dp"
+                                    android:text="$0.00"
+                                    android:textColor="#2d2c2c"
+
+                                    android:textSize="12dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

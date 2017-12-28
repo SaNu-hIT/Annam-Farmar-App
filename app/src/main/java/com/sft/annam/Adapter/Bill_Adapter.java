@@ -29,6 +29,8 @@ import org.json.JSONObject;
 
 import java.util.List;
 
+import me.grantland.widget.AutofitTextView;
+
 /**
  * Created by Anjush on 14/2/2017.
  */
@@ -46,7 +48,7 @@ public class Bill_Adapter extends RecyclerView.Adapter<Bill_Adapter.MyViewholder
     @Override
     public MyViewholder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.bill_row, parent, false);
+                .inflate(R.layout.invoice_design, parent, false);
         return new MyViewholder(itemView);
     }
 
@@ -64,6 +66,7 @@ public class Bill_Adapter extends RecyclerView.Adapter<Bill_Adapter.MyViewholder
    holder.bill_rate.setText(karshakaItem.getTotal_amount());
    holder.bill_exptime.setText(karshakaItem.getTotal_time());
    holder.bill_total_amount.setText(karshakaItem.getTotal_amount());
+   holder.subtotal.setText(karshakaItem.getTotal_amount());
 
 
 
@@ -84,28 +87,30 @@ public class Bill_Adapter extends RecyclerView.Adapter<Bill_Adapter.MyViewholder
 MyTextView bill_bookingid;
 MyTextView bill_location;
 MyTextView bill_date;
-MyTextView bill_machinetype;
-MyTextView bill_machinename;
+MyTextView subtotal;
+        AutofitTextView bill_machinetype;
+        AutofitTextView bill_machinename;
 MyTextView bill_ownername;
 MyTextView bill_ownerphone;
 MyTextView bill_day;
-MyTextView bill_rate;
-MyTextView bill_exptime;
-MyTextView bill_total_amount;
+        AutofitTextView bill_rate;
+        AutofitTextView bill_exptime;
+        AutofitTextView bill_total_amount;
 
         public MyViewholder(View itemView) {
             super(itemView);
             bill_bookingid = (MyTextView) itemView.findViewById(R.id.bill_bookingid);
             bill_location = (MyTextView) itemView.findViewById(R.id.bill_location);
             bill_date = (MyTextView) itemView.findViewById(R.id.bill_date);
-            bill_machinetype = (MyTextView)itemView.findViewById(R.id.bill_machinetype);
-            bill_machinename = (MyTextView) itemView.findViewById(R.id.bill_machinename);
+            subtotal = (MyTextView) itemView.findViewById(R.id.subtotals);
+            bill_machinetype = (AutofitTextView)itemView.findViewById(R.id.bill_machinetype);
+            bill_machinename = (AutofitTextView) itemView.findViewById(R.id.bill_machinename);
             bill_ownername = (MyTextView) itemView.findViewById(R.id.bill_ownername);
             bill_ownerphone = (MyTextView) itemView.findViewById(R.id.bill_ownerphone);
             bill_day = (MyTextView) itemView.findViewById(R.id.bill_day);
-            bill_rate = (MyTextView) itemView.findViewById(R.id.bill_rate);
-            bill_exptime = (MyTextView) itemView.findViewById(R.id.bill_exptime);
-            bill_total_amount = (MyTextView) itemView.findViewById(R.id.bill_total_amount);
+            bill_rate = (AutofitTextView) itemView.findViewById(R.id.bill_rate);
+            bill_exptime = (AutofitTextView) itemView.findViewById(R.id.bill_exptime);
+            bill_total_amount = (AutofitTextView) itemView.findViewById(R.id.bill_total_amount);
         }
     }
 }

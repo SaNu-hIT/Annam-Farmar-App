@@ -21,30 +21,34 @@
             android:title="@string/booking_status" />
         <item
             android:id="@+id/bill"
-            android:icon="@drawable/history"
+            android:icon="@drawable/bill"
             android:title="Bill" />
         <item
             android:id="@+id/nav_history"
-            android:icon="@drawable/history"
+            android:icon="@drawable/ic_history"
             android:title="@string/History" />
         <item
             android:id="@+id/nav_profile"
-            android:icon="@drawable/profile"
+            android:icon="@drawable/icon_profileuser"
             android:title="@string/profile" />
         <item
             android:id="@+id/nav_changepassword"
             android:icon="@drawable/changepassword"
+            android:visible="false"
             android:title="@string/changepasword" />
-        <item
-            android:id="@+id/nav_about"
-            android:icon="@drawable/aboutlogo"
-            android:title="@string/About" />
+
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout"
             android:title="@string/Logout" />
     </group>
 
+    <group android:id="@+id/nav_footer">
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Annam" />
+    </group>
 
 
 </menu>
