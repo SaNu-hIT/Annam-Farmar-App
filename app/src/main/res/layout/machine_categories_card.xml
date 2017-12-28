@@ -11,42 +11,48 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_margin="3dp"
-        android:elevation="3dp"
-        android:background="@color/colorPrimary"
-        card_view:cardCornerRadius="1sp">
+        android:elevation="2dp"
+
+        card_view:cardCornerRadius="2sp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:background="@color/colorPrimary"
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/thumbnail"
-                android:layout_width="match_parent"
+                android:layout_width="150dp"
 
-                android:layout_height="180dp"
+                android:layout_height="150dp"
+android:layout_margin="10dp"
 
-
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
                 android:clickable="true"
                 android:scaleType="fitXY" />
             <LinearLayout
                 android:layout_width="match_parent"   android:layout_below="@id/thumbnail"
                 android:layout_height="match_parent"
-                android:background="@color/colorPrimary">
+                android:background="@color/white">
                 <com.sft.annam.TextView_Lato
                     android:gravity="center"
                     android:id="@+id/title"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
 
                     android:paddingLeft="2dp"
                     android:paddingRight="2dp"
 android:lines="1"
+android:padding="5dp"
+                    android:layout_gravity="start|left"
+
                     android:paddingBottom="2dp"
                     android:typeface="normal"
                     android:text="Title"
 
-                    android:textColor="@color/white"
-                    android:textSize="13dp" />
+                    android:textColor="@color/text_color"
+                    android:textSize="14dp" />
 
 
             </LinearLayout>

@@ -71,6 +71,8 @@ public class Machine_book_List_Adapter extends BaseAdapter {
 int expected_rate;
     private String ratePerDay;
 boolean agreeimplats=false;
+    private int mSelectedItem=-1;
+
     public Machine_book_List_Adapter(FragmentActivity activity,
                                      ArrayList<MachineListModel_Booking> machineries_model_array,
                                      BookNow_TempData_Model tempData_model) {
@@ -124,6 +126,23 @@ boolean agreeimplats=false;
 
 //
         setListeners(myholder, position);
+
+        if(mSelectedItem == position)
+        {
+
+            myholder.body_layout.setVisibility(View.VISIBLE);
+//                myholder.ibDown.setVisibility(View.GONE);
+            myholder.ibUp.setVisibility(View.GONE);
+//            holder.img_EventIcon.setBorderWidth(5);
+//            holder.img_EventIcon.setBorderColor(context.getResources().getColor(R.color.colorPrimary));
+
+        }
+        else
+        {
+            myholder.body_layout.setVisibility(View.GONE);
+//                myholder.ibDown.setVisibility(View.GONE);
+            myholder.ibUp.setVisibility(View.GONE);
+        }
 
 
 
@@ -919,19 +938,19 @@ boolean check_anyobne_is_connecetd_cleran=false;
 //            myholder.lyDownButton.setVisibility(LinearLayout.GONE);
 //        }
 //
-        myholder.ibDown.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                myholder.body_layout.setVisibility(View.VISIBLE);
-                myholder.ibDown.setVisibility(View.GONE);
-                myholder.ibUp.setVisibility(View.VISIBLE);
-
-
-
-
-            }
-        });
+//        myholder.ibDown.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                myholder.body_layout.setVisibility(View.VISIBLE);
+//                myholder.ibDown.setVisibility(View.GONE);
+//                myholder.ibUp.setVisibility(View.VISIBLE);
+//
+//
+//
+//
+//            }
+//        });
 //
         myholder.ibUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -944,6 +963,20 @@ boolean check_anyobne_is_connecetd_cleran=false;
         });
 
 
+        myholder.card_view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mSelectedItem=position;
+                myholder.body_layout.setVisibility(View.VISIBLE);
+//                myholder.ibDown.setVisibility(View.GONE);
+                myholder.ibUp.setVisibility(View.VISIBLE);
+
+                notifyDataSetChanged();
+
+
+
+            }
+        });
 
 
     }
@@ -1406,6 +1439,7 @@ myholder.visible_land_area.setVisibility(LinearLayout.VISIBLE);
 //        holder.lyOfHours = (LinearLayout) convertView.findViewById(R.id.mlfb_LayoutOfHours);
 //
         holder.lyOfTreessss = (LinearLayout) convertView.findViewById(R.id.mlfb_LayoutOfTrees_new);
+        holder.card_view = (LinearLayout) convertView.findViewById(R.id.card_view);
         holder.inof_imageviewss = (LinearLayout) convertView.findViewById(R.id.inof_imageviewss);
         holder.lyOfCoprasssss = (LinearLayout) convertView.findViewById(R.id.mlfb_LayoutOfCoprasss);
         holder.lyOfWithFuel = (LinearLayout) convertView.findViewById(R.id.mlfb_LayoutOfWithFuel);
@@ -1477,7 +1511,7 @@ myholder.visible_land_area.setVisibility(LinearLayout.VISIBLE);
     public static class Holder {
         public ImageView ivMachineImage, ivMachineIcon;
         public TextView tvMachineTitle, tvMachineDescription, tvRatePerDay, tvTotalRate, tvBookingDateNTime, piockUp;
-        public LinearLayout lyOfWithFuel, lyOfWithoutFuel, lyOfWithDriver, lyOfWithoutDriver,
+        public LinearLayout lyOfWithFuel, lyOfWithoutFuel, lyOfWithDriver, lyOfWithoutDriver,card_view,
                 lyOfLicense, lyOfPickupRequired_NEW, lyOfUpButton;
         public ImageButton ibDown, ibUp;
         public RadioGroup rgDateNTime;

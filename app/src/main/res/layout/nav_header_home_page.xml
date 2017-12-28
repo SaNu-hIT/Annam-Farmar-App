@@ -2,27 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/side_nav_bar"
+    android:background="@color/colorPrimary"
         android:orientation="vertical"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+   >
 
 
     <LinearLayout
-        android:padding="10dp"
+
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:src="@drawable/logo"/>
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+
+
+        android:src="@drawable/annamlogowhitelarge"/>
     <TextView
         android:layout_marginLeft="10dp"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
+        android:visibility="gone"
         android:layout_height="wrap_content"
         android:text="info.annamagrotech@gmail.com"
         android:textColor="#ffffffff"

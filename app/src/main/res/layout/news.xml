@@ -6,10 +6,13 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:elevation="2dp"
         android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:id="@+id/card_view"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
@@ -28,17 +31,21 @@
                     android:padding="2dp">
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
                         android:layout_margin="4dp"
-                        android:gravity="top">
+                        android:layout_gravity="center"
+
+                        android:background="@drawable/machinebackgroundgreen"
+                        android:gravity="center">
 
                         <ImageView
                             android:id="@+id/mlfb_MachineImage"
-                            android:layout_width="120dp"
+                            android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:background="?attr/selectableItemBackgroundBorderless"
                             android:clickable="true"
+android:layout_gravity="center"
+
 
                             android:scaleType="centerCrop"
                             android:src="@drawable/b01tractor" />
@@ -49,9 +56,9 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
-                        android:layout_marginStart="25dp"
+                        android:layout_height="wrap_content"
+
+
                         android:orientation="vertical"
                         android:padding="3dp">
 
@@ -89,7 +96,8 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-condensed"
                                     android:gravity="left"
-
+android:textColor="@color/colorPrimary"
+                                    android:textStyle="bold"
                                     android:text="Tractor Ridge Plaster"
                                     android:textSize="16sp" />
 
@@ -99,7 +107,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content"
 
                             >
 
@@ -107,13 +116,92 @@
                             <TextView
                                 android:id="@+id/mlfb_MachineDescription"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:fontFamily="sans-serif-light"
                                 android:gravity="end|fill_horizontal|center"
-                                android:text="Ridge plaster is a very common tool used for bringing new changes "
+                                android:text="Ridge plaster is a very common tool used for bringing new casfdsa sadsadas sadsadsadsa sadsadsad dsadsadsad dasdsadsa   dsadsadsad dsadsadsadsad sadsada asdsadsa  dsadsads sad sdads dsadshanges "
                                 android:textSize="12sp" />
 
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|bottom"
+                            android:layout_margin="10dp"
+                            android:gravity="center|bottom">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content" android:layout_weight="1"
+                                android:layout_height="match_parent">
+
+
+                                <TextView
+                                    android:id="@+id/mlfb_RatePerDay"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:background="@drawable/roundrectangleleft"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+
+                                    android:minHeight="5dp"
+
+
+                               android:padding="5dp"     android:text="$2000 Rate/Day"
+                                    android:textColor="@color/white"
+
+                                    android:textSize="12sp" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"    android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/mlfb_TotalRate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:background="@drawable/roundedrectangleright"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:gravity="center"
+                                    android:padding="5dp"
+                                    android:minHeight="5dp"
+
+                                    android:text="$2000 Rate/Hour"
+                                    android:textColor="@color/white"
+
+                                    android:textSize="12sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right">
+
+
+                                <ImageButton
+
+                                    android:id="@+id/mlfb_ButtonDown"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_gravity="center"
+                                    android:background="@color/white"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:src="@drawable/plus"
+                                    android:text="More"
+                                    android:visibility="gone"
+
+                                    />
+
+                            </LinearLayout>
                         </LinearLayout>
 
 
@@ -131,71 +219,7 @@
 
                     >
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="start|center">
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent">
-
-
-                            <TextView
-                                android:id="@+id/mlfb_RatePerDay"
-                                android:layout_width="80dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="5dp"
-                                android:layout_marginEnd="5dp"
-
-                                android:layout_marginLeft="5dp"
-
-
-                                android:layout_marginRight="5dp"
-                                android:layout_marginStart="5dp"
-                                android:layout_marginTop="5dp"
-                                android:background="@drawable/roundrectangleleft"
-                                android:fontFamily="sans-serif-condensed"
-                                android:gravity="center"
-
-                                android:minHeight="45dp"
-                                android:padding="5dp"
-                                android:text="Rate/Day"
-                                android:textColor="@color/white"
-
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-
-
-                        </LinearLayout>
-
-                        <LinearLayout
-
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:id="@+id/mlfb_TotalRate"
-                                android:layout_width="80dp"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="5dp"
-                                android:layout_marginEnd="5dp"
-                                android:layout_marginRight="5dp"
-                                android:layout_marginTop="5dp"
-                                android:background="@drawable/roundedrectangleright"
-                                android:fontFamily="sans-serif-condensed"
-                                android:gravity="center"
-
-                                android:minHeight="45dp"
-                                android:padding="5dp"
-                                android:text="Rate/hour"
-                                android:textColor="@color/white"
-
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-
-                        </LinearLayout>
-                    </LinearLayout>
 
 
                     <LinearLayout
@@ -221,19 +245,7 @@
 
                             />
 
-                        <ImageButton
 
-                            android:id="@+id/mlfb_ButtonDown"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="5dp"
-
-                            android:background="@color/white"
-                            android:fontFamily="sans-serif-condensed"
-                            android:src="@drawable/plus"
-                            android:text="More"
-
-                            />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -244,6 +256,7 @@
                 android:id="@+id/child_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:visibility="gone"
                 android:orientation="vertical">
 
 

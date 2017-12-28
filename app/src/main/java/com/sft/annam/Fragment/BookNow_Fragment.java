@@ -13,6 +13,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Rect;
+import android.graphics.Typeface;
 import android.location.Location;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
@@ -132,7 +133,8 @@ public class BookNow_Fragment extends Fragment implements MachineCategoriesAdapt
             addLocNBookNow();
         }
 
-        getActivity().setTitle("Annam");
+        getActivity().setTitle("annam");
+//        getActivity().getTitle().
 
         Const_Model.booklaterFlag = false;
 

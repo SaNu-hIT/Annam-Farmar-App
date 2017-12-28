@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Home"
+    xmlns:andorid="http://schemas.android.com/tools">
     <item
         android:id="@+id/action_settings"
-
         android:icon="@drawable/icons_phone"
         android:title="+917560812281"
-        app:showAsAction="always" />
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/myLocation"
+
+        android:icon="@drawable/ic_location"
+        android:orderInCategory="50"
+
+        android:title="loc"
+        app:showAsAction="withText|always"
+        andorid:showAsAction="always" />
 </menu>

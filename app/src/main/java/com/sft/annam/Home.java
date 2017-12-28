@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -143,8 +144,10 @@ View vies;
         setContentView(R.layout.activity_annam_home);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+toolbar.setTitle("");
         CheckNetwork();
+
+
 
 
         final LocationManager manager = (LocationManager)getSystemService    (Context.LOCATION_SERVICE );

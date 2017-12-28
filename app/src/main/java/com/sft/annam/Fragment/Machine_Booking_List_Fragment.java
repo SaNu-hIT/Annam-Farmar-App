@@ -35,7 +35,7 @@ public class Machine_Booking_List_Fragment  extends Fragment{
         View rootView=inflater.inflate(R.layout.machine_list_forbooking,container,false);
 
         macchine_listforbooking=(ListView)rootView.findViewById(R.id.listView_listformachines);
-
+        macchine_listforbooking.setDivider(null);
         getDataFromPrefs();
 
         Bundle machinetype_bundle = getArguments();

@@ -59,7 +59,7 @@ dependencies {
     compile 'com.google.android.gms:play-services:10.2.4'
     compile 'com.android.support:support-v4:24.2.1'
     testCompile 'junit:junit:4.12'
-
+//    compile 'com.android.volley:volley:1.0.0'
     compile 'com.github.mrengineer13:snackbar:1.2.0'
 
 
