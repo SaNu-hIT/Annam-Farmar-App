@@ -12,334 +12,288 @@
 
         android:layout_width="match_parent"
         android:layout_margin="10sp"
-
+        android:id="@+id/header_viewcard"
         android:elevation="5dp"
-        android:background="@drawable/bg_list_rect"
+        android:background="@drawable/rect_oval_green"
         android:layout_height="wrap_content">
 
-        <FrameLayout
+
+        <LinearLayout
+            android:id="@+id/header_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/bg_list_rect"
             android:orientation="vertical">
 
 
-            <ImageView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:scaleType="fitXY"
-                android:id="@+id/machines_images_id"
-                android:src="@drawable/b01tractor">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
 
-            </ImageView>
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="4dp"
+                    android:layout_gravity="center"
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                    android:background="@drawable/machinebackgroundgreen"
+                    android:gravity="center">
 
-                android:scrollbars="none">
+                    <ImageView
+                        android:id="@+id/machines_images_id"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
 
+
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/b01tractor" />
+
+
+                </LinearLayout>
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
-                    android:orientation="vertical">
+
+                    android:orientation="vertical"
+                    android:padding="3dp">
 
 
-                    <FrameLayout
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:id="@+id/mlfb_MachineIcon"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:padding="4dp"
+
+                                android:src="@drawable/machine" />
+                        </LinearLayout>
 
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="230dp"
-                            android:background="#ffffff"
+                            android:layout_height="match_parent"
+                            android:gravity="left"
                             android:orientation="vertical">
 
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="10dp"
-                                android:orientation="horizontal">
-
-
-                                <LinearLayout
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="vertical">
-
-
-
-
-                                    <ImageView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="30dp"
-                                        android:layout_marginTop="5dp"
-                                        android:background="@drawable/ic_circle3" />
-
-
-                                </LinearLayout>
-
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="vertical">
-
-
-                                    <LinearLayout
-                                        android:id="@+id/city1"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:orientation="vertical">
-
-                                        <LinearLayout
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:orientation="vertical">
-
-
-                                            <com.sft.annam.customfonts.MyTextView
-                                                android:id="@+id/mac_type"
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginLeft="30dp"
-                                                android:text="SAINT PITERSBUG"
-
-                                                android:textColor="@color/cityname" />
-
-
-                                        </LinearLayout>
-
-
-                                    </LinearLayout>
-
-
-                                    <LinearLayout
-                                        android:id="@+id/city2"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:orientation="vertical">
-
-
-                                        <LinearLayout
-                                            android:layout_width="match_parent"
-                                            android:layout_height="wrap_content"
-                                            android:orientation="vertical">
-
-
-                                            <com.sft.annam.customfonts.MyTextView
-                                                android:id="@+id/machine_name"
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginLeft="30dp"
-                                                android:text="SALBURG"
-                                                android:textColor="@color/cityname" />
-
-
-                                            <com.sft.annam.customfonts.MyTextView
-                                                android:id="@+id/mac_description"
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginLeft="30dp"
-                                                android:layout_marginTop="5dp"
-                                                android:text="Pulkovo1, Russia1"
-                                                android:textColor="@color/state"
-                                                android:textSize="12dp" />
-
-                                            <com.sft.annam.customfonts.MyTextView
-                                                android:id="@+id/mac_distance"
-                                                android:layout_width="match_parent"
-                                                android:layout_height="wrap_content"
-                                                android:textColor="#f77575"
-                                                android:layout_marginLeft="30dp"
-
-                                                android:text="new text"
-
-
-                                                />
-                                        </LinearLayout>
-
-                                    </LinearLayout>
-
-                                </LinearLayout>
-                            </LinearLayout>
-
-                            <LinearLayout
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/mac_type"
                                 android:layout_width="wrap_content"
-                                android:layout_marginLeft="80dp"
-                                android:layout_height="wrap_content">
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="right"
+                                android:text="Type"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:textSize="12sp"
+                             />
+
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/machine_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="left"
+                                android:text="Tractor Ridge Plaster"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
 
 
-                            </LinearLayout>
-
-                            <View
-                                android:layout_width="match_parent"
-                                android:layout_height="0.5dp"
-                                android:layout_marginLeft="70dp"
-                                android:layout_marginTop="20dp"
-                                android:background="@color/view" />
+                        </LinearLayout>
+                    </LinearLayout>
 
 
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
 
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:layout_width="20dp"
-                                        android:layout_height="20dp"
-                                        android:layout_marginLeft="30dp"
+                        >
 
 
-                                        android:background="@drawable/rates" />
+                        <com.sft.annam.customfonts.MyTextView
+                            android:id="@+id/mac_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:fontFamily="sans-serif-light"
+                            android:gravity="end|fill_horizontal|center"
+                            android:text="Ridge plaster is a very common tool used for bringing new casfdsa sadsadas sadsadsadsa sadsadsad dsadsadsad dasdsadsa   dsadsadsad dsadsadsadsad sadsada asdsadsa  dsadsads sad sdads dsadshanges "
+                            android:textSize="12sp" />
 
 
-                                    <com.sft.annam.customfonts.MyTextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="20dp"
-                                        android:id="@+id/day_rate"
+                    </LinearLayout>
 
-                                        android:text="Rate Per Day"
-                                        android:textColor="@color/date" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_margin="10dp"
+                        android:gravity="center|bottom">
 
-                                </LinearLayout>
-
-
-                                <com.sft.annam.customfonts.MyTextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="72dp"
-                                    android:layout_marginTop="5dp"
-                                    android:text="Monday"
-                                    android:id="@+id/mac_rateperdy"
-                                    android:textColor="@color/week"
-                                    android:textSize="12dp" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
 
 
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:orientation="horizontal">
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/mac_rateperdy"
 
 
-                                    <ImageView
-                                        android:layout_width="20dp"
-                                        android:layout_height="20dp"
-                                        android:layout_marginLeft="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
 
-                                        android:background="@drawable/rates" />
+                                android:background="@drawable/roundrectangleleft"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
 
-                                    <com.sft.annam.customfonts.MyTextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="20dp"
-                                        android:id="@+id/hour_type"
-
-                                        android:text="Rate Per hour"
-                                        android:textColor="@color/date" />
+                                android:minHeight="5dp"
 
 
-                                </LinearLayout>
+                                android:padding="5dp"
+                                android:text="$2000 Rate/Day"
+                                android:textColor="@color/white"
 
-                                <com.sft.annam.customfonts.MyTextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"  android:id="@+id/mac_rateperhour"
-                                    android:layout_marginLeft="72dp"
-                                    android:text="Friday"
-                                    android:textColor="@color/week"
-                                    android:textSize="12dp" />
-
-                                <View
-                                    android:layout_width="match_parent"
-                                    android:layout_height="0.5dp"
-                                    android:layout_marginTop="2dp"         android:layout_marginLeft="70dp"
-                                    android:background="@color/view" />
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:padding="12dp"
-                                    android:layout_marginLeft="10dp"
-                                    android:orientation="vertical">
-
-                                    <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:orientation="horizontal">
-
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:layout_marginLeft="10dp"
-                                            android:layout_marginTop="5dp"
-                                            android:background="@drawable/spec"/>
-
-                                        <com.sft.annam.customfonts.MyTextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:text="Specifications"
-                                            android:textColor="#5A5A5A"
-                                            android:layout_marginLeft="20dp"
-                                            android:textSize="16dp"/>
-                                    </LinearLayout>
-
-                                    <com.sft.annam.customfonts.MyTextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="55dp"
-                                        android:visibility="gone"
-                                        android:layout_marginTop="5dp"
-                                        android:textColor="#A0A0A0" android:id="@+id/spec1"
-                                        android:text="India"/>
-
-
-                                    <com.sft.annam.customfonts.MyTextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="55dp" android:visibility="gone"
-                                        android:layout_marginTop="5dp" android:id="@+id/spec2"
-                                        android:textColor="#A0A0A0"
-                                        android:text="India"/>
-
-                                    <com.sft.annam.customfonts.MyTextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="55dp"
-                                        android:id="@+id/spec3" android:visibility="gone"
-                                        android:layout_marginTop="5dp"
-                                        android:textColor="#A0A0A0"
-                                        android:text="India"/>
-
-                                </LinearLayout>
-
-                            </LinearLayout>
+                                android:textSize="12sp" />
 
 
                         </LinearLayout>
 
-                    </FrameLayout>
+                        <LinearLayout
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <com.sft.annam.customfonts.MyTextView
+                                android:id="@+id/mac_rateperhour"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:background="@drawable/roundedrectangleright"
+                                android:fontFamily="sans-serif-condensed"
+                                android:gravity="center"
+                                android:minHeight="5dp"
+                                android:padding="5dp"
+
+                                android:text="$2000 Rate/Hour"
+                                android:textColor="@color/white"
+
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <com.sft.annam.customfonts.MyTextView
+                        android:id="@+id/mac_distance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        android:text="new text"
+                        android:textColor="#f77575"
+
+
+                        />
                 </LinearLayout>
 
-            </ScrollView>
+
+            </LinearLayout>
+
+            //end header
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+
+
+
+                <LinearLayout
+
+                    android:id="@+id/detailsitemlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical"
+                    android:paddingRight="0dp">
 
 
 
 
 
-        </FrameLayout>
+                    <com.sft.annam.customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Specifications"
+                        android:textColor="@color/colorPrimaryDark"
+android:layout_gravity="center"
+
+                        android:textStyle="bold"
+                        android:textSize="18dp"/>
+
+                    <com.sft.annam.customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+android:padding="2dp"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/specification"
+                        android:id="@+id/spec1"
+                        android:text="1.India is the best country in the world becouse of its coulture and all . we are all should produd of our nation "/>
+
+
+                    <com.sft.annam.customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:visibility="gone"
+                        android:layout_margin="5dp" android:id="@+id/spec2"
+                        android:textColor="@color/specification"
+                        android:text="2.India is the best country in the world becouse of its coulture and all . we are all should produd of our nation "/>
+
+
+                    <com.sft.annam.customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spec3"
+                        android:visibility="gone"
+                        android:layout_margin="5dp" android:padding="2dp"
+                        android:textColor="@color/specification"
+                        android:text="3.India is the best country in the world becouse of its coulture and all . we are all should produd of our nation "/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
     </android.support.v7.widget.CardView>
 </LinearLayout>

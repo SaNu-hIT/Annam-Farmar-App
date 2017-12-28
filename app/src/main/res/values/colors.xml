@@ -37,5 +37,6 @@
 
     <color name="colortext">#100b20</color>
     <color name="colorhint">#a9aaac</color>
+    <color name="specification">#454545</color>
 
 </resources>

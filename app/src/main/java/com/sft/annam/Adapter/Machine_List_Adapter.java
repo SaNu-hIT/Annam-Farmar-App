@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.sft.annam.Model.Machineries_Model;
 import com.sft.annam.R;
@@ -29,6 +30,9 @@ public class Machine_List_Adapter extends BaseAdapter {
     MyTextView spec1, spec2, spec3;
     String[] minDistance;
     String[] numOwners;
+    private LinearLayout detailsitemlayout;
+    private LinearLayout header_view;
+    private int mSelectedItem=-1;
 
     public Machine_List_Adapter(FragmentActivity activity, ArrayList<Machineries_Model> machineries_model_array, String[] minimumDistance, String[] numOwners) {
 
@@ -59,7 +63,7 @@ public class Machine_List_Adapter extends BaseAdapter {
         if (convertView == null) {
             LayoutInflater li = (LayoutInflater) context
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = li.inflate(R.layout.machne_list_item_design, parent, false);
+            convertView = li.inflate(R.layout.machine_new_designs, parent, false);
         }
         //else{
         initViews(convertView);
@@ -80,41 +84,41 @@ public class Machine_List_Adapter extends BaseAdapter {
 
 
         if (!strRatePerDay.equals("0")) {
-            mac_rateperdy.setText("₹" + strRatePerDay);
-            day.setText("Rate Per day");
+            mac_rateperdy.setText("₹" + strRatePerDay +"\n Rate Per day");
+//            day.setText("Rate Per day");
         }
 
 
         if (!strRatePerHour.equals("0")) {
-            hour.setText("Rate Per Hour");
-            mac_rateperhour.setText("₹" + strRatePerHour);
+//            hour.setText("Rate Per Hour");
+            mac_rateperhour.setText("₹" + strRatePerHour+"\n Rate Per Hour");
         }
 
 
         if (!rate_per_coconut_kg.equals("0")) {
             mac_rateperdy.setText("₹" + rate_per_coconut_kg);
             mac_rateperhour.setVisibility(View.GONE);
-            hour.setVisibility(View.GONE);
+//            hour.setVisibility(View.GONE);
 
         }
 
 
         if (!rate_per_tree_climb.equals("0")) {
-            day.setText("Rate Per tree climb");
+//            day.setText("Rate Per tree climb");
 
-            mac_rateperdy.setText("₹" + rate_per_tree_climb);
+            mac_rateperdy.setText("₹" + rate_per_tree_climb+"\n Rate Per tree climb");
 
         }
 
         if (!rate_per_tree_clean.equals("0")) {
-            hour.setText("Rate per tree clean");
-            mac_rateperhour.setText("₹" + rate_per_tree_clean);
+//            hour.setText("Rate per tree clean");
+            mac_rateperhour.setText("₹" + rate_per_tree_clean+"\n Rate per tree clean");
 
         }
 
         if (!rate_per_pesticide_kg.equals("0")) {
-            day.setText("Rate per KG");
-            mac_rateperdy.setText("₹" + rate_per_pesticide_kg);
+//            day.setText("Rate per KG");
+            mac_rateperdy.setText("₹" + rate_per_pesticide_kg+"\n Rate per KG");
             mac_rateperhour.setVisibility(View.GONE);
 
 
@@ -137,12 +141,18 @@ public class Machine_List_Adapter extends BaseAdapter {
             spec3.setVisibility(View.VISIBLE);
         }
 
+
+        if(specification1.equals("")&&specification2.equals("")&&specification3.equals(""))
+        {
+            detailsitemlayout.setVisibility(View.GONE);
+        }
+
         mac_description.setText(machineis_model.get(position).getDescription());
         String distance;
         if (minDistance == null) {
-            distance = "Not Available Near You";
+            distance = "Not Available";
         } else if (minDistance[position].equals("0")) {
-            distance = "Not Available Near You";
+            distance = "Not Available";
         } else {
             distance = numOwners[position] + " machines @ " + minDistance[position] + " KM away from you";
         }
@@ -209,12 +219,41 @@ public class Machine_List_Adapter extends BaseAdapter {
 //            }
 
 
+        header_view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                detailsitemlayout.setVisibility(View.VISIBLE);
+
+            }
+        });
+        if(mSelectedItem == position)
+        {
+
+            detailsitemlayout.setVisibility(View.VISIBLE);
+//                myholder.ibDown.setVisibility(View.GONE);
+//            .ibUp.setVisibility(View.GONE);
+//            holder.img_EventIcon.setBorderWidth(5);
+//            holder.img_EventIcon.setBorderColor(context.getResources().getColor(R.color.colorPrimary));
+
+        }
+        else
+        {
+            detailsitemlayout.setVisibility(View.GONE);
+//                myholder.ibDown.setVisibility(View.GONE);
+//            myholder.ibUp.setVisibility(View.GONE);
+        }
+
+        mSelectedItem=position;
+
+
         return convertView;
     }
 
 
     private void initViews(View convertView) {
         machine_name = (MyTextView) convertView.findViewById(R.id.machine_name);
+        detailsitemlayout = (LinearLayout) convertView.findViewById(R.id.detailsitemlayout);
+        header_view = (LinearLayout) convertView.findViewById(R.id.header_view);
         mac_type = (MyTextView) convertView.findViewById(R.id.mac_type);
         mac_rateperdy = (MyTextView) convertView.findViewById(R.id.mac_rateperdy);
         mac_rateperhour = (MyTextView) convertView.findViewById(R.id.mac_rateperhour);
@@ -224,7 +263,7 @@ public class Machine_List_Adapter extends BaseAdapter {
         spec1 = (MyTextView) convertView.findViewById(R.id.spec1);
         spec2 = (MyTextView) convertView.findViewById(R.id.spec2);
         spec3 = (MyTextView) convertView.findViewById(R.id.spec3);
-        day = (MyTextView) convertView.findViewById(R.id.day_rate);
-        hour = (MyTextView) convertView.findViewById(R.id.hour_type);
+//        day = (MyTextView) convertView.findViewById(R.id.day_rate);
+//        hour = (MyTextView) convertView.findViewById(R.id.hour_type);
     }
 }
