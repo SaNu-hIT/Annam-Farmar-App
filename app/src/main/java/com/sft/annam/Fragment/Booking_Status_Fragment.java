@@ -109,7 +109,6 @@ public class Booking_Status_Fragment extends Fragment {
             JSONArray result = jsonObject.getJSONArray(Booking_Status_Model.JSON_ARRAY);
             length = result.length();
 
-
             for(i=0;i<length;i++){
                 JSONObject serverData = result.getJSONObject(i);
                 booking_id = serverData.getString(Booking_Status_Model.KEY_BOOKING_ID);

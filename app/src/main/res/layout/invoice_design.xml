@@ -32,6 +32,7 @@
                     android:layout_height="wrap_content"
                     android:background="@color/white"
                     android:orientation="horizontal"
+                    android:visibility="gone"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp"
                     >
@@ -142,7 +143,7 @@
                                 android:padding="2dp"
                                 android:layout_gravity="center"
                                 android:gravity="start|center"
-                                android:text="Bill To: "
+                                android:text="Bill From: "
                                 android:textColor="@color/black"
                                 android:textSize="14dp" />
 
@@ -172,10 +173,10 @@
                                 android:padding="2dp"
                                 android:layout_gravity="center"
                                 android:gravity="start|center"
-                                android:text="Bill To: "
+                                android:text="Bill From: "
                                 android:visibility="invisible"
                                 android:textColor="@color/black"
-                                android:textSize="10dp" />
+                                android:textSize="14dp"  />
 
                             <com.sft.annam.customfonts.MyTextView
                                 android:id="@+id/bill_ownerphone"
@@ -201,10 +202,10 @@
                                 android:padding="2dp"
                                 android:layout_gravity="center"
                                 android:gravity="start|center"
-                                android:text="Bill To: "
+                                android:text="Bill From: "
                                 android:visibility="invisible"
                                 android:textColor="@color/black"
-                                android:textSize="10dp" />
+                                android:textSize="14dp"  />
                             <com.sft.annam.customfonts.MyTextView
                                 android:id="@+id/bill_location"
                                 android:layout_width="0dp"
@@ -378,7 +379,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:layout_marginTop="10dp"
-                    android:background="#78ca96"
+                    android:background="@color/colorPrimary"
                     android:orientation="horizontal"
                     android:padding="2dp">
                     <me.grantland.widget.AutofitTextView
@@ -388,7 +389,7 @@
                         android:layout_weight=".3"
                         android:gravity="center"
                         android:text="No"
-                        android:textColor="#333333"
+                        android:textColor="#ffff"
                         android:textSize="13dp"
 
                         android:textStyle="bold" />
@@ -400,7 +401,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="M.Type"
-                        android:textColor="#333333"
+                        android:textColor="#ffff"
                         android:textSize="13dp"
 
                         android:textStyle="bold" />
@@ -413,7 +414,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="M.Name"
-                        android:textColor="#333333"
+                        android:textColor="#ffff"
                         android:textStyle="bold" />
 
 
@@ -425,7 +426,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="Rate"
-                        android:textColor="#333333"
+                        android:textColor="#ffff"
                         android:textStyle="bold" />
 
                     <me.grantland.widget.AutofitTextView
@@ -436,7 +437,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="Total Time"
-                        android:textColor="#333333"
+                        android:textColor="#ffff"
                         android:textStyle="bold" />
 
                     <me.grantland.widget.AutofitTextView
@@ -447,7 +448,7 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="Total"
-                        android:textColor="#333333"
+                        android:textColor="#ffff"
                         android:textStyle="bold" />
                 </LinearLayout>
 
@@ -539,6 +540,7 @@
                     android:layout_height="4dp"
                     android:layout_marginBottom="10dp"
 android:layout_margin="5dp"
+                    android:visibility="gone"
                     android:background="#dcdcdc" />
 
                 <LinearLayout

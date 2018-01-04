@@ -147,7 +147,7 @@ public class Profile_Fragment extends Fragment {
        profile_mail=(TextView)profileView.findViewById(R.id.textProfileMail);
        profile_location=(TextView)profileView.findViewById(R.id.textProfileLocation);
        profile_save=(Button)profileView.findViewById(R.id.buttonProfileSave);
-       profile_cancel=(Button)profileView.findViewById(R.id.buttonProfileCancel);
+       profile_cancel=(Button)profileView.findViewById(R.id.buttonresetedit);
 
 
    }

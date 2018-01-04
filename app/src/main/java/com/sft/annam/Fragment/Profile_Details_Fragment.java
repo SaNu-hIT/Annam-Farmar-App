@@ -1,5 +1,4 @@
 package com.sft.annam.Fragment;
-
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Toast;
-
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -20,63 +19,92 @@ import com.sft.annam.Model.FetchId;
 import com.sft.annam.Model.Profile_Model;
 import com.sft.annam.R;
 import com.sft.annam.Utilities.Utilities;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.net.URI;
 import java.net.URISyntaxException;
-
-
 /**
  * Created by SFT on 6/9/2016.
  */
 public class Profile_Details_Fragment extends Fragment implements View.OnClickListener {
     EditText profile_name, profile_address, profile_phone, profile_mail, profile_location;
     CheckBox cbRice, cbRubber, cbTea, cbVeg, cbBanana, cbCoffee;
-    Button profile_save, profile_cancel;
+    Button profile_save, button_edit;
     private ProgressDialog loading;
-
+LinearLayout crops,buttonedit;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View profileView = inflater.inflate(R.layout.profile_fragment,container,false);
-
         profile_name=(EditText)profileView.findViewById(R.id.textProfileName);
         profile_address=(EditText)profileView.findViewById(R.id.textProfileAddress);
         profile_phone=(EditText)profileView.findViewById(R.id.textProfilePhone);
         profile_mail=(EditText)profileView.findViewById(R.id.textProfileMail);
         profile_location=(EditText)profileView.findViewById(R.id.textProfileLocation);
-
+        crops=(LinearLayout) profileView.findViewById(R.id.crops_id);
         cbRice = (CheckBox)profileView.findViewById(R.id.checkBox_rice);
         cbRubber = (CheckBox)profileView.findViewById(R.id.checkBox_ruuber);
         cbTea = (CheckBox)profileView.findViewById(R.id.checkBox_tea);
         cbVeg = (CheckBox)profileView.findViewById(R.id.checkBox_veg);
         cbBanana = (CheckBox)profileView.findViewById(R.id.checkBox_banana);
         cbCoffee = (CheckBox)profileView.findViewById(R.id.checkBox_coffee);
-
         profile_save=(Button)profileView.findViewById(R.id.buttonProfileSave);
-        profile_cancel=(Button)profileView.findViewById(R.id.buttonProfileCancel);
+        button_edit=(Button)profileView.findViewById(R.id.buttonresetedit);
+        profile_name.setBackground(null);
+        profile_address.setBackground(null);
+        profile_phone.setBackground(null);
+        profile_mail.setBackground(null);
+        profile_location.setBackground(null);
 
-        profile_save.setOnClickListener(this);
-        profile_cancel.setOnClickListener(this);
+        profile_name.setEnabled(false);
+        profile_address.setEnabled(false);
+        profile_phone.setEnabled(false);
+        profile_mail.setEnabled(false);
+        profile_location.setEnabled(false);
+        crops.setVisibility(View.GONE);
+//        buttonedit.setVisibility(View.VISIBLE);
+
+        profile_save.setVisibility(View.INVISIBLE);
+
+
         FetchId fetchId = Utilities.getInstance(getActivity()).fetchId();
         final String fechid = fetchId.getUser_id();
 
         getActivity().setTitle("Profile");
-        initListeners();
+
         getData();
+
+        profile_save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setData();
+
+            }
+        });
+        button_edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                profile_name.setEnabled(true);
+                profile_address.setEnabled(true);
+                profile_phone.setEnabled(true);
+                profile_mail.setEnabled(true);
+                profile_location.setEnabled(true);
+                profile_name.setBackground(getResources().getDrawable(R.drawable.book_a_service_bg));
+                profile_address.setBackground(getResources().getDrawable(R.drawable.book_a_service_bg));
+                profile_phone.setBackground(getResources().getDrawable(R.drawable.book_a_service_bg));
+                profile_mail.setBackground(getResources().getDrawable(R.drawable.book_a_service_bg));
+                profile_location.setBackground(getResources().getDrawable(R.drawable.book_a_service_bg));
+                crops.setVisibility(View.VISIBLE);
+                profile_save.setVisibility(View.VISIBLE);
+                button_edit.setVisibility(View.INVISIBLE);
+
+            }
+        });
         return profileView;
     }
 
-    private void initListeners() {
-        profile_cancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                getData();
-                return;
-            }
-        });
-    }
+
 
     public void getData(){
         loading = ProgressDialog.show(getActivity(),"Please wait...","Fetching...",false,false);
@@ -250,7 +278,20 @@ public class Profile_Details_Fragment extends Fragment implements View.OnClickLi
     @Override
     public void onClick(View view) {
         //Toast.makeText(getActivity(), "You Clicked Save Button", Toast.LENGTH_SHORT).show();
-        setData();
+
+        int id=view.getId();
+
+
+//        if(id == R.id.buttonProfileSave)
+//        {
+//            setData();
+//        }
+//        else if(id == R.id.buttonresetedit)
+//        {
+//
+//        }
+
+
 
     }
 }

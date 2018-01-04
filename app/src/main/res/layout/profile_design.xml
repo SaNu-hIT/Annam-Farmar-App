@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+ >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linear"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo_personal"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="25dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="top"
+                android:padding="16dp">
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/username"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="#a2a1b8"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="left"
+                    />
+
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/textProfileName"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Jay patel"
+                    android:textColorHint="#181737"
+                    android:textColor="#181737"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_weight="1"
+
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="#a2a1b8"
+                android:maxLength="12"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="left"
+                />
+
+
+            <com.sft.annam.customfonts.MyTextView
+                android:layout_weight="1"
+                android:id="@+id/textProfileAddress"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColorHint="#181737"
+                android:textColor="#181737"
+                android:maxLength="12"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/emil"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textColor="#a2a1b8"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="left"/>
+
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/textProfileMail"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#1b193b"
+                    android:hint="jay@wolfsoft.ws"
+                    android:textColor="#181737"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/password"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textColor="#a2a1b8"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="left"
+                    />
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/textProfilePhone"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#1b193b"
+                    android:inputType="text"
+                    android:text="123456789"
+                    android:textColor="#181737"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8"/>
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/google"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textColor="#a2a1b8"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="left"
+                    />
+
+                <com.sft.annam.customfonts.MyTextView
+                    android:layout_weight="1"
+                    android:id="@+id/textProfileLocation"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="connected"
+                    android:textColorHint="#181737"
+                    android:maxLength="12"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/buttonProfileedit"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EDIT"
+                android:textColor="#a2a1b8"
+                android:maxLength="12"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/buttonresetPassword"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SAVE"
+                android:textColorHint="#181737"
+                android:maxLength="12"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

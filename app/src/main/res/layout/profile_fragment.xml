@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,296 +7,318 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@+id/button_layout"
         android:fadeScrollbars="false">
 
-
-        <FrameLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="8dp">
+            android:orientation="vertical">
 
-            <LinearLayout
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linear">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/txtNameTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Name : "
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
+                <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="10dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logo_personal" />
 
-                    <EditText
-                        android:id="@+id/textProfileName"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@android:color/transparent"
-                        android:text="Name" />
-                </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#9e9e9e" />
+            </FrameLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/txtAddressTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Address : "
-                        android:textStyle="bold" />
-                </LinearLayout>
-
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="10dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <EditText
-                        android:id="@+id/textProfileAddress"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-
-                        android:background="@android:color/transparent"
-                        android:text="Address" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#9e9e9e" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/txtPhTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Phone Number : "
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="0dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <EditText
-                        android:id="@+id/textProfilePhone"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:background="@android:color/transparent"
-
-                        android:text="Phone_Number" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#9e9e9e" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/txtEmailTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Email ID : "
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="0dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <EditText
-                        android:id="@+id/textProfileMail"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:background="@android:color/transparent"
-
-                        android:text="Mail_id" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#9e9e9e" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <TextView
-                        android:id="@+id/txtLocationTitle"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Location : "
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="0dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <EditText
-                        android:id="@+id/textProfileLocation"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:background="@android:color/transparent"
-                        android:text="Location" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#9e9e9e" />
-
-
-                <LinearLayout
-
-                    android:id="@+id/jfdk"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="8dp">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="2dp"
+                        android:orientation="horizontal"
+
+                        >
+
+                        <com.sft.annam.customfonts.MyTextView
+                            android:id="@+id/username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="left"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:text="Name"
+                            android:textColor="#a2a1b8"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/textProfileName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="right"
+                            android:hint="Jay patel"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:textColor="#181737"
+                            android:textColorHint="#181737"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dad8d8" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="2dp"
+                        android:orientation="horizontal">
+
+                        <com.sft.annam.customfonts.MyTextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="left"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:text="Address"
+                            android:textColor="#a2a1b8"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/textProfileAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="right"
+                            android:hint="Jay patel"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:textColor="#181737"
+                            android:textColorHint="#181737"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dad8d8" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="2dp"
+                        android:orientation="horizontal">
+
+                        <com.sft.annam.customfonts.MyTextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="left"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:text="Phone Number"
+                            android:textColor="#a2a1b8"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/textProfilePhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            android:background="#0000"
+                            android:gravity="right"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:text="Phone_Number"
+                            android:textColor="#181737"
+                            android:textColorHint="#181737"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dad8d8" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="2dp"
+                        android:orientation="horizontal">
+
+                        <com.sft.annam.customfonts.MyTextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="left"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:text="Email ID"
+                            android:textColor="#a2a1b8"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/textProfileMail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="right"
+                            android:hint="Jay patel"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:textColor="#181737"
+                            android:textColorHint="#181737"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dad8d8" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="2dp"
+                        android:orientation="horizontal">
+
+                        <com.sft.annam.customfonts.MyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="left"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:text="Location "
+                            android:textColor="#a2a1b8"
+                            android:textSize="16dp" />
+
+                        <EditText
+                            android:id="@+id/textProfileLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#0000"
+                            android:gravity="right"
+                            android:hint="Jay patel"
+                            android:maxLength="12"
+                            android:padding="10dp"
+                            android:textColor="#181737"
+                            android:textColorHint="#181737"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dad8d8" />
+
+
+                    <LinearLayout
+
+                        android:id="@+id/crops_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center"
+
                         android:orientation="vertical"
-                        android:padding="10dp">
+                        android:padding="8dp">
 
-                        <TextView
-                            android:id="@+id/txtCropsTitle"
+
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Your crops : "
-                            android:textStyle="bold" />
+                            android:layout_gravity="left"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/txtCropsTitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Your crops : "
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                        <include layout="@layout/crops_type" />
                     </LinearLayout>
 
-                    <include layout="@layout/crops_type" />
+
                 </LinearLayout>
+            </FrameLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginTop="3dp"
-                    android:background="#9e9e9e" />
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="20dp"
-                    android:layout_marginTop="10dp"
-
-                    android:orientation="horizontal"
-                    android:padding="5dp"
-                    android:weightSum="2">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="horizontal">
-
-
-                        <Button
-                            android:id="@+id/buttonProfileSave"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/oval_button_green"
-                            android:text="SAVE"
-                            android:textColor="#ffffff"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:orientation="horizontal">
-
-                        <Button
-                            android:id="@+id/buttonProfileCancel"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Refresh"
-                            android:background="@drawable/oval_button_green"
-                            android:textColor="#ffffff"
-                            android:textStyle="bold" />
-                    </LinearLayout>
-                </LinearLayout>
-            </LinearLayout>
-        </FrameLayout>
-
-
+        </LinearLayout>
     </ScrollView>
 
-</LinearLayout>
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonProfileSave"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:maxLength="12"
+            android:text="SAVE"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonresetedit"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:hint="EDIT"
+            android:maxLength="12"
+            android:textColorHint="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

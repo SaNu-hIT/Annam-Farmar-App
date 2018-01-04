@@ -5,10 +5,10 @@
         android:startColor="@color/colorPrimary"
         android:angle="270" />
     <corners
-        android:radius="75dp"/>
+        android:radius="11dp"/>
     <padding
-        android:left="10dp"
-        android:top="10dp"
-        android:right="10dp"
-        android:bottom="10dp" />
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp" />
 </shape>

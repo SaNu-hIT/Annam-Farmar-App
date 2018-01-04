@@ -65,6 +65,7 @@ import com.sft.annam.Fragment.Machine_Booking_List_Fragment;
 import com.sft.annam.Fragment.Machineries_Fragment;
 import com.sft.annam.Fragment.Profile_Details_Fragment;
 import com.sft.annam.Fragment.Profile_Fragment;
+import com.sft.annam.Fragment.Profile_Fragment_New;
 import com.sft.annam.Interfaces.OnHttpReponseForSbmit_LAterBooking;
 import com.sft.annam.Interfaces.OnHttpResponceForKarshgasenaBooking;
 import com.sft.annam.Interfaces.OnHttpResponseForChangePassword;
@@ -81,17 +82,10 @@ import com.sft.annam.Model.Machineries_Model;
 import com.sft.annam.Model.Profile_View_Model;
 import com.sft.annam.Utilities.LocationListner;
 import com.sft.annam.Utilities.Utilities;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
-
-/**
- * Created by JESNA on 8/10/2016.
- * Modded by SHAFAL on 05/09/2016
- */
 public class Home extends AppCompatActivity implements
         NavigationView.OnNavigationItemSelectedListener,
         OnHttpResponseForProfile,
@@ -104,25 +98,19 @@ public class Home extends AppCompatActivity implements
         OnHttpResponseForSubmitBooking, OnHttpResponceForKarshgasenaBooking, GoogleApiClient.ConnectionCallbacks, SnackBar.OnMessageClickListener {
     LocationRequest mLocationRequest;
     private LocationListner gps;
-
     Location_MOdel location_mOdel;
     private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10;
-
-
     private static final long MIN_TIME_BW_UPDATES = 1000 * 60 * 1;
     public static Toolbar toolbar;
     public static NavigationView navigationView;
-
     public static DrawerLayout drawer;
     Fragment fragment;
-
     private static final String SHOWCASE_ID = "Home";
     private GoogleApiClient mGoogleApiClient;
     private LatLng latLng;
     private Location_MOdel loc_model;
     private LocationManager locationManager;
     private Location loc;
-
     @Override
     public void onSaveInstanceState(Bundle outState) {
         //  super.onSaveInstanceState(outState);
@@ -144,14 +132,9 @@ View vies;
         setContentView(R.layout.activity_annam_home);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-toolbar.setTitle("");
+        toolbar.setTitle("");
         CheckNetwork();
-
-
-
-
         final LocationManager manager = (LocationManager)getSystemService    (Context.LOCATION_SERVICE );
-
         if ( !manager.isProviderEnabled( LocationManager.GPS_PROVIDER ) )
             Toast.makeText(this, "GPS is disabled!", Toast.LENGTH_LONG).show();
         else
@@ -170,41 +153,26 @@ toolbar.setTitle("");
                 }
             }
         });
-
-
-
         if (mGoogleApiClient == null) {
             mGoogleApiClient = new GoogleApiClient.Builder(this)
                     .addConnectionCallbacks(this)
                     .addApi(LocationServices.API)
                     .build();
         }
-
         // Create the LocationRequest object
         mLocationRequest = LocationRequest.create()
                 .setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY)
                 .setInterval(10 * 1000)        // 10 seconds, in milliseconds
                 .setFastestInterval(1 * 1000);
-
-
-
         toggle.syncState();
 
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
-
-
     }
-
-
     @Override
     protected void onResume() {
         super.onResume();
-
     }
-
     @Override
     public void onBackPressed() {
         Activity currActivity = this;
@@ -508,7 +476,7 @@ toolbar.setTitle("");
         if (responseStatus) {
 
             if (profile_models != null) {
-                Fragment fragment = new Profile_Fragment();
+                Fragment fragment = new Profile_Fragment_New();
                 Bundle bundle = new Bundle();
                 bundle.putParcelableArrayList("profileview", profile_models);
                 fragment.setArguments(bundle);
