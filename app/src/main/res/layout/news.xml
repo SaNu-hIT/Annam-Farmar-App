@@ -256,7 +256,7 @@ android:textColor="@color/colorPrimary"
                 android:id="@+id/child_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
+
                 android:orientation="vertical">
 
 
@@ -307,7 +307,7 @@ android:textColor="@color/colorPrimary"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="10dp"
                     android:orientation="vertical"
-                    android:visibility="gone">
+                    >
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -406,7 +406,7 @@ android:textColor="@color/colorPrimary"
                                     <EditText
                                         android:id="@+id/mlfb_EditTextHours"
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
+                                        android:layout_height="30dp"
                                         android:layout_weight="1"
                                         android:background="@drawable/book_a_service_bg"
                                         android:gravity="center"
@@ -417,7 +417,7 @@ android:textColor="@color/colorPrimary"
                                     <EditText
                                         android:id="@+id/mlfb_EditTextMinutes"
                                         android:layout_width="match_parent"
-                                        android:layout_height="match_parent"
+                                        android:layout_height="30dp"
                                         android:layout_weight="1"
                                         android:background="@drawable/book_a_service_bg"
                                         android:gravity="center"
@@ -444,7 +444,7 @@ android:textColor="@color/colorPrimary"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 android:orientation="vertical"
-                    android:visibility="gone"
+
                     android:layout_margin="25dp"
 
                    >
@@ -460,7 +460,7 @@ android:orientation="vertical"
                         android:baselineAligned="false"
                         android:gravity="center"
                         android:orientation="horizontal"
-
+android:visibility="gone"
                         android:weightSum="3">
 
                         <LinearLayout
@@ -525,7 +525,7 @@ android:orientation="vertical"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="sans-serif-condensed"
                                 android:gravity="left"
-
+android:textColor="@color/colorPrimary"
                                 android:text=" NO of trees to clean "
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
@@ -541,7 +541,7 @@ android:orientation="vertical"
                             <EditText
                                 android:id="@+id/mlfb_EditTextTreesToClean"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="30dp"
                                 android:background="@drawable/book_a_service_bg"
                                 android:digits="1234567890."
                                 android:fontFamily="sans-serif-condensed"
@@ -635,9 +635,10 @@ android:orientation="vertical"
                         <TextView
                             android:id="@+id/textView8"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="30dp"
                             android:layout_marginBottom="0dp"
                             android:layout_weight="1"
+                            android:textColor="@color/colorPrimary"
                             android:fontFamily="sans-serif-condensed"
                             android:text=" Land Area  In Cents"
                             android:textSize="16sp"
@@ -647,7 +648,7 @@ android:orientation="vertical"
                         <EditText
                             android:id="@+id/mlfb_EditTextLandArea"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="30dp"
                             android:layout_weight="1"
                             android:background="@drawable/book_a_service_bg"
                             android:digits="1234567890."
@@ -678,18 +679,21 @@ android:orientation="vertical"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:fontFamily="sans-serif-condensed"
-                            android:padding="4dp"
-                            android:text="Land Condition"
-                            android:textSize="16sp"
-                            android:textStyle="bold" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed"
+                                android:padding="4dp"
+                                android:layout_weight=".3"
+                                android:textColor="@color/colorPrimary"
+                                android:text="Land Condition"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
 
                             <CheckBox
                                 android:id="@+id/mlfb_CheckBoxDry"
