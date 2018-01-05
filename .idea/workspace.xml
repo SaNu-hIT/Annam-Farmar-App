@@ -10,41 +10,210 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7372de3b-00ef-4f26-b301-3e2f82134653" name="Default" comment="added new design in machine">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-00-42-735.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-00-42-735.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-05-36-468.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-05-36-468.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-27-43-977.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-27-43-977.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-57-20-142.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-10-57-20-142.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-03-20-001.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-03-20-001.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-04-31-421.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-04-31-421.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-05-59-790.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-05-59-790.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-07-18-304.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-07-18-304.rawproto" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-08-44-069.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-04-11-08-44-069.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-45-22-250.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-45-22-250.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-47-09-053.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-47-09-053.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-49-09-670.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-49-09-670.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-52-59-432.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-52-59-432.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-54-49-084.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-01-05-11-54-49-084.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/generated/source/buildConfig/release/com/android/volley/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/generated/source/r/release/com/android/volley/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/bundles/release/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/AuthFailureError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Cache$Entry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Cache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/CacheDispatcher$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/CacheDispatcher$WaitingRequestManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/CacheDispatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/ClientError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/DefaultRetryPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/ExecutorDelivery$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/ExecutorDelivery$ResponseDeliveryRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/ExecutorDelivery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Header.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Network.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/NetworkDispatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/NetworkError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/NetworkResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/NoConnectionError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/ParseError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Request$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Request$Method.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Request$NetworkRequestCompleteListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Request$Priority.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/RequestQueue$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/RequestQueue$RequestFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/RequestQueue$RequestFinishedListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/RequestQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Response$ErrorListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Response$Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/Response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/ResponseDelivery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/RetryPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/ServerError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/TimeoutError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/VolleyError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/VolleyLog$MarkerLog$Marker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/VolleyLog$MarkerLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/VolleyLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/AdaptedHttpStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/AndroidAuthenticator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/Authenticator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/BaseHttpStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/BasicNetwork.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ByteArrayPool$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ByteArrayPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ClearCacheRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/DiskBasedCache$CacheHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/DiskBasedCache$CountingInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/DiskBasedCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/HttpClientStack$HttpPatch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/HttpClientStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/HttpHeaderParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/HttpResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/HttpStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/HurlStack$UrlRewriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/HurlStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$BatchedImageRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$ImageCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$ImageContainer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader$ImageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/ImageRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/JsonArrayRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/JsonObjectRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/JsonRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/NetworkImageView$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/NetworkImageView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/NetworkImageView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/NoCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/PoolingByteArrayOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/RequestFuture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/StringRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/debug/com/android/volley/toolbox/Volley.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/AuthFailureError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Cache$Entry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Cache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/CacheDispatcher$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/CacheDispatcher$WaitingRequestManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/CacheDispatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/ClientError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/DefaultRetryPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/ExecutorDelivery$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/ExecutorDelivery$ResponseDeliveryRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/ExecutorDelivery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Header.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Network.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/NetworkDispatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/NetworkError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/NetworkResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/NoConnectionError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/ParseError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Request$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Request$Method.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Request$NetworkRequestCompleteListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Request$Priority.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Request.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/RequestQueue$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/RequestQueue$RequestFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/RequestQueue$RequestFinishedListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/RequestQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Response$ErrorListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Response$Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/Response.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/ResponseDelivery.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/RetryPolicy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/ServerError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/TimeoutError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/VolleyError.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/VolleyLog$MarkerLog$Marker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/VolleyLog$MarkerLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/VolleyLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/AdaptedHttpStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/AndroidAuthenticator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/Authenticator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/BaseHttpStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/BasicNetwork.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ByteArrayPool$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ByteArrayPool.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ClearCacheRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/DiskBasedCache$CacheHeader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/DiskBasedCache$CountingInputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/DiskBasedCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/HttpClientStack$HttpPatch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/HttpClientStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/HttpHeaderParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/HttpResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/HttpStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/HurlStack$UrlRewriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/HurlStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$BatchedImageRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$ImageCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$ImageContainer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader$ImageListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/ImageRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/JsonArrayRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/JsonObjectRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/JsonRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/NetworkImageView$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/NetworkImageView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/NetworkImageView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/NoCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/PoolingByteArrayOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/RequestFuture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/StringRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/classes/release/com/android/volley/toolbox/Volley.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/intermediate-jars/debug/res.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/javaPrecompile/release/annotationProcessors.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/manifests/aapt/release/output.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/manifests/full/release/output.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/res/release/output.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/split-apk/debug/resources/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/volley/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/book_a_service_bg.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/book_a_service_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/news.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/news.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/volley/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/volley/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/volley/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
     </list>
@@ -75,10 +244,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
               <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
-              <folding>
-                <element signature="e#6194#6225#0" expanded="false" />
-                <element signature="e#6227#6259#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,13 +256,6 @@
               <caret line="527" column="0" lean-forward="false" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
               <folding>
                 <element signature="e#2060#2086#0" expanded="true" />
-                <element signature="e#29953#30001#0" expanded="false" />
-                <element signature="e#30322#30370#0" expanded="false" />
-                <element signature="e#30715#30763#0" expanded="false" />
-                <element signature="e#31284#31332#0" expanded="false" />
-                <element signature="e#32742#32790#0" expanded="false" />
-                <element signature="e#32838#32886#0" expanded="false" />
-                <element signature="e#33157#33205#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -105,8 +264,8 @@
       <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sft/annam/Utilities/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -3079,6 +3238,20 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Annam-Farmar-App" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -3197,7 +3370,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515133435017" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515135279529" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3245,7 +3418,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515133435017" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515135279529" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3428,7 +3601,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515133435021" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1515135279530" />
       </method>
     </configuration>
     <list size="1">
@@ -3478,20 +3651,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="822" extended-state="0" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329235" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329235" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3502,7 +3674,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3990,13 +4162,6 @@
           <caret line="527" column="0" lean-forward="false" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
           <folding>
             <element signature="e#2060#2086#0" expanded="true" />
-            <element signature="e#29953#30001#0" expanded="false" />
-            <element signature="e#30322#30370#0" expanded="false" />
-            <element signature="e#30715#30763#0" expanded="false" />
-            <element signature="e#31284#31332#0" expanded="false" />
-            <element signature="e#32742#32790#0" expanded="false" />
-            <element signature="e#32838#32886#0" expanded="false" />
-            <element signature="e#33157#33205#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4013,17 +4178,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="555" column="0" lean-forward="false" selection-start-line="555" selection-start-column="0" selection-end-line="555" selection-end-column="0" />
-          <folding>
-            <element signature="e#6194#6225#0" expanded="false" />
-            <element signature="e#6227#6259#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sft/annam/Utilities/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
